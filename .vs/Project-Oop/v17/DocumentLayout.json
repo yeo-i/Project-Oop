@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Project-Oop\\",
+  "WorkspaceRootPath": "D:\\firstOopHomeWork\\oop-groupproject-team-n-to-t\\Project-Oop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1292FD3-6B06-4349-9638-5FEAB558C177}|Project-Oop\\Project-Oop.csproj|d:\\project-oop\\project-oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B1292FD3-6B06-4349-9638-5FEAB558C177}|Project-Oop\\Project-Oop.csproj|d:\\firstoophomework\\oop-groupproject-team-n-to-t\\project-oop\\project-oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1292FD3-6B06-4349-9638-5FEAB558C177}|Project-Oop\\Project-Oop.csproj|solutionrelative:project-oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Project-Oop\\Project-Oop\\Program.cs",
+              "DocumentMoniker": "D:\\firstOopHomeWork\\oop-groupproject-team-n-to-t\\Project-Oop\\Project-Oop\\Program.cs",
               "RelativeDocumentMoniker": "Project-Oop\\Program.cs",
-              "ToolTip": "D:\\Project-Oop\\Project-Oop\\Program.cs",
+              "ToolTip": "D:\\firstOopHomeWork\\oop-groupproject-team-n-to-t\\Project-Oop\\Project-Oop\\Program.cs",
               "RelativeToolTip": "Project-Oop\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAfAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBAAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T13:05:22.291Z",
               "EditorCaption": ""
