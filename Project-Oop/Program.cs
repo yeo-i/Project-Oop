@@ -4,28 +4,35 @@ namespace Project_Oop
 {
     class Book
     {
-        public string title;
-        public string author;
-        public Book( string title ,string author)
-        {
-            this.title = title;
-            this.author = author;
-        }
+        public Book() { }     //     *
+        public Book( string title ,string author) { }
     }
     class Library_catalogue
     {
         public string title;
         public string author;
-
+        Book B= new Book();     //       *
+        public Library_catalogue(string Etitle , string eauthor)   //       * 
+        {
+            Etitle = title;
+            eauthor = author;
+        }
         public void search()
         {
+            if (title =="k")    //     *
+                title =author;
+
 
         }
         public bool check() 
         { 
+            if (title == null)     //        *
             return true;
+            else
+                return false;
+           
         }
-        public Library_catalogue() { }
+       
         
     }
     
@@ -33,7 +40,16 @@ namespace Project_Oop
     {
         static void Main(string[] args)
         {
-           Library_catalogue LC= new Library_catalogue();
+            //      SEARCH     *           //     *
+            Console.WriteLine("enter the title of book you looking for: ");
+            string searchT=Console.ReadLine();
+
+            Console.WriteLine("enter the author name of book you looking for: ");
+            string searchA = Console.ReadLine();
+            Library_catalogue library=new Library_catalogue(searchT,searchA);
+
+
+            //      ADD BOOK   *
             List<Book> books= new List<Book>();
 
             Console.Write("Do you want add a new book?");

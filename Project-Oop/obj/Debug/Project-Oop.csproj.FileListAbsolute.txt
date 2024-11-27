@@ -5,3 +5,10 @@ D:\firstOopHomeWork\oop-groupproject-team-n-to-t\Project-Oop\Project-Oop\obj\Deb
 D:\firstOopHomeWork\oop-groupproject-team-n-to-t\Project-Oop\Project-Oop\obj\Debug\Project-Oop.csproj.CoreCompileInputs.cache
 D:\firstOopHomeWork\oop-groupproject-team-n-to-t\Project-Oop\Project-Oop\obj\Debug\Project-Oop.exe
 D:\firstOopHomeWork\oop-groupproject-team-n-to-t\Project-Oop\Project-Oop\obj\Debug\Project-Oop.pdb
+D:\github repo\oop-groupproject-team-n-to-t\Project-Oop\Project-Oop\bin\Debug\Project-Oop.exe.config
+D:\github repo\oop-groupproject-team-n-to-t\Project-Oop\Project-Oop\bin\Debug\Project-Oop.exe
+D:\github repo\oop-groupproject-team-n-to-t\Project-Oop\Project-Oop\bin\Debug\Project-Oop.pdb
+D:\github repo\oop-groupproject-team-n-to-t\Project-Oop\Project-Oop\obj\Debug\Project-Oop.csproj.AssemblyReference.cache
+D:\github repo\oop-groupproject-team-n-to-t\Project-Oop\Project-Oop\obj\Debug\Project-Oop.csproj.CoreCompileInputs.cache
+D:\github repo\oop-groupproject-team-n-to-t\Project-Oop\Project-Oop\obj\Debug\Project-Oop.exe
+D:\github repo\oop-groupproject-team-n-to-t\Project-Oop\Project-Oop\obj\Debug\Project-Oop.pdb
