@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics.Eventing.Reader;
 namespace Project_Oop
 {
     class Book
@@ -25,7 +24,7 @@ namespace Project_Oop
         }
         public bool check(string title , string author)
         {
-            return books.Exists(book => book.title == title && book.author == author);
+            return books.Exists(book => book.title == title || book.author == author);
 
         }
 
@@ -33,8 +32,7 @@ namespace Project_Oop
         {
             //      ADD BOOK     *
            
-
-            Console.Write("Do you want add a new book?");
+            Console.Write("\t Do you want add a new book?");
             bool n = bool.Parse(Console.ReadLine());
 
             while (n == true)
@@ -65,18 +63,24 @@ namespace Project_Oop
                 Library_catalogue library = new Library_catalogue();
                 library.addBook();
 
-
               //      SEARCH     *                //        CHECK    *
                 Console.WriteLine("enter the title of book you looking for: ");
                 string searchT = Console.ReadLine();
                 Console.WriteLine("enter the author name of book you looking for: ");
                 string searchA = Console.ReadLine();
 
-                library.search(searchT);
-                library.check(searchT,searchA);
-                
+                object found = library.search(searchT) ;
+                if (found != null)
+                {
+                    Console.WriteLine("Found book:  {0} ", searchT);
+                }
+                else
+                {
+                Console.WriteLine("No book found with the search term: {0}", searchT);
+                }
 
-
+                object exists = library.check(searchT, searchA);
+                Console.WriteLine("Book '{0}' by {1} exists in the catalog: {2}" , searchT, searchA, exists);
             }
         }
     }
